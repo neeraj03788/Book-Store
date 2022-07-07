@@ -1,0 +1,60 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: auto;
+    padding: 1rem;
+    width: 250px;
+    height: 100;
+    box-shadow: 5px 5px 10px #ccc;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+li{
+    width: 250px;
+    max-width: 250px;
+    padding: 10px;
+    max-height: 400px;
+    list-style: none;
+    margin: 4 0px;
+}
+.card >img{
+    height: 50%;
+    width: 100%;
+}
+.card h3{
+    margin: 0;
+    padding: 5px;
+}
+.card h3{
+    /* margin: 0; */
+    padding: 4px;
+}
+.card p{
+    margin: 0;
+    padding: 5px;
+}
+.card article{
+    margin: 0;
+    padding: 5px;
+}
+.card p{
+    margin: 0;
+    padding: 3px;
+}
+
+.card h2{
+    margin: 0;
+}
+.card p{
+    padding: 3px;
+}
+/* .card h2{
+
+} */
